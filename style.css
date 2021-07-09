@@ -1,0 +1,486 @@
+@charset "UTF-8";
+/* CSS Document */
+/*
+Theme Name: Volunteers At Lowell
+Author: Piano Hagens
+Author URI: 
+Description: The owners of Paradigm Pet Professionals are looking for a site that is easy to navigate and makes the content readable and easy to understand. 
+Place holder source: http://fpoimg.com/1045x576?text=image 1&bg_color=BDBDBD" style="width:100%"
+tags: &#128062; 
+Version: 0.07_07/05/2021
+*/
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html {
+	
+	}
+
+body {
+    font-family:cursive;
+    margin: 10px auto;
+    width: 100%;
+    max-width: 1220px;
+	}
+div#wrapper {
+    background-color: red;
+}
+h1 {
+    color: #003B6D;
+	font-size: 26px;
+	}
+	
+h2 {
+    margin-top: 24px;
+    float: none;
+    color: #003B6D;
+    word-break: keep-all;
+    width: 95%;
+    text-align: center;
+    font-size: 30px;
+}
+h2.title {
+}
+	
+h3 {
+    color: #003B6D;
+	font-size: 22px;
+    padding-top: 20px;
+    text-align: center;
+	}
+h4 {
+    color: #003B6D;
+	font-size: 20px;
+    padding-top: 10px;
+    text-align: left;    
+}
+h5 {
+    color: #676767;
+	font-size: 18px;
+    text-align: left;
+    
+}
+	
+p {
+	font-size: 20px;
+    padding: 10px;
+    margin-left: 3%;
+    margin-right: 3%;
+	}
+a {
+	font-size: 16px;
+    color: #003B6D;
+	}
+	
+a:hover, li:hover, ul:hover, hr {
+	color: 	#6699CC;
+	}
+li {
+    list-style-type: none;
+    font-size: 16px;
+}
+ol.contentLi {
+    list-style-type:decimal;
+    font-size: 18px;
+    text-indent:inherit;
+    padding-left: 1em;
+}
+/********************** #header1 ***************************/
+#header1 {
+    margin-top: 0;
+    height: 200px;
+	position: relative;
+	}
+    #logo
+    {
+    position: absolute;    
+    top: 30px;
+    left: 30px;
+    }
+    div#quicklinks{
+    height: 60px;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    width:300px;
+    z-index: 99;
+    }
+
+ul#uslinks{  
+    float: right;
+    width: 250px;
+}
+ul#uslinks li.utiliIcon{ 
+    background-color: white;
+    display: inline;
+    margin-left: -10px;
+}
+li img.utiliIcon{
+max-width: 90px;
+display: inline-block;
+}
+
+ div#iconLinks{
+    height: 60px;
+    position: absolute;
+    top: 75px;
+    right: 35px;
+    width:250px;
+    }
+ul#iconLinks{    
+    float: right;
+    width: 250px;
+}
+ul#iconLinks li.iconLinks{
+    background-color: white;
+    display: inline;
+}
+ul#iconLinks li a:hover{
+    font-size: 32px;
+    opacity: .9;
+}
+ul#iconLinks li img:hover{
+    opacity: .9;
+    width: 35px;
+}
+li img.iconLinks{
+max-width: 20px;
+display: inline-block;
+}
+
+.buttonlink{
+    position: absolute;
+    top: 60px;
+    right: 30px;
+    width: 350px;
+    padding:10px;
+}
+
+.buttonlink img.links {
+    max-width: 100%
+}
+.donationButton{
+  position: absolute;
+  top: 61%;
+  right: 4%;
+  width: 40%;
+  transition: 0.6s ease;
+  border-radius: 10px;
+  z-index: 9999;
+}
+.donationButton img:hover{
+    width: 55%;
+}
+.needAppt{
+  position: absolute;
+  top: 35%;
+  right: 15%;
+  width: 200px;
+  border-radius: 10px;
+  z-index: 9999;    
+}
+.needAppt img:hover{
+    opacity: .66;
+}
+/*
+h6, h7{
+    //padding-top: 30px;
+}
+*/
+/********************** nav ******** 
+.nav .current{
+    background-color: #6699cc;
+}*******************/
+li.active, .current:hover {
+  background-color: #676767;
+  color: white;
+}
+ul.breadcrumb li.breadcrumbCurrent a{
+  color: #003B6D;
+}
+ul#myNav{
+    width: 100%;
+    max-width: 1200px;
+    height: 50px;
+    clear: both; 
+    margin-block-end: 1em;
+    margin-block-start: 1em;
+    overflow: hidden;
+}
+li {
+    margin-left: -3px;
+    width: 200px; 
+    background-color: #BDBDBD;
+    list-style-type: none;
+    display: inline-block; 
+    padding: 14px 6px; 
+    text-align: center;
+}    
+li:hover{
+    background-color: #BDBDBD;     
+    }
+li a{
+        color: #003B6D;
+        text-decoration: none;        
+        font-weight: bold;
+    }
+
+ul.dropdown-content {
+    z-index: 999;
+    margin-top: 12px;
+    position: absolute;
+    width: 200px; 
+    display: none;
+    
+}   
+ul.dropdown-content li{
+    width: 200px; 
+    border-top: 1px solid #003B6D;
+    margin-left: -12px;  
+    }   
+ul.dropdown-content li:hover{
+       background-color: #BDBDBD; 
+    }
+ul.dropdown-content li a.dropbtn {
+    display: inline-block;
+    color: #BDBDBD;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}    
+ li.dropdown:hover ul.dropdown-content {
+    display: block;
+}
+/******************* Breadcrumb Pagination ******************************/
+
+ul.breadcrumb {
+  margin-left: 80px;
+  padding: 0 6px;
+  list-style: none;
+    
+    
+}
+ul.breadcrumb li.breadcrumbCurrent {
+  display: inline;
+  font-size: 18px;
+  background-color: white;
+}
+ul.breadcrumb li a {
+  color: #6699cc;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover, .icon:hover{
+  color: #003B6D;
+  text-decoration: underline;
+}
+.icon{
+    font-size: 20px;
+    color: #676767;
+}
+
+
+/******************** section1 *****************************/
+.content1{
+    
+}
+.content2{
+    width: 1220px;
+    max-width: 980px;
+}
+.contentMain{
+    margin: 10px;
+    padding: 30x;
+    width: 65%;
+    float: left;
+}
+.contentMainPage{
+    
+    margin: 10px;
+    padding: 30x;
+    width: 98%;
+    float: left;
+}
+
+	
+img.left-prof {
+    float: left;
+    padding: 10px;
+    margin: 10px;
+}
+img.right-prof{ 
+    float: right;
+}
+.contentMainPage img, .contentMainPage img{
+   width: 350px;
+    max-width: 100%;
+    margin: 20px;
+}
+.widget .topArticles {
+    margin: 10px;
+    padding: 30x;
+    width: 25%;
+    float: left;
+    height: 930px;
+    border-left: 1px solid #6699cc;
+}
+
+.topArticleUL ol{
+    padding-left: 2em;
+}
+.pageWidgets{
+    width: 98%;
+    clear: both;
+}
+.pageWidget{
+    width: 30%;
+    padding: 10px;
+    margin: 10px;
+    height: 200px;
+    display: inline-grid;
+}
+
+#more {display: none;}
+b{
+    color: #6699cc;
+}
+/******************Footer ***************************/
+#footer{
+    width: 100%;
+    height: 50px;
+    clear: both;    
+    margin: 2px auto;
+    padding: 5px;
+    overflow: hidden;
+    background-color: #676767;
+    text-align: center;
+}
+.infoSection{
+    margin-top: 50px;
+}
+
+/*************************************************/
+.search-container {
+    height: 60px;
+    position: absolute;
+    top: 125px;
+    right: 80px;
+    width:300px;    
+}
+
+.search-container input[type=text] {
+  padding: 5px;
+  margin-top: 8px;
+  font-size: 24px;
+  border: 1px solid #676767;
+  border-radius: 10px;
+}
+
+.search-container button {
+  border-radius: 10px;
+  position: absolute;
+  top: 2px;
+  right: .1px;
+  float: right;
+  margin-top: 8px;
+  font-size: 28px;
+  border: none;
+  cursor: pointer;
+}
+.search-container button:hover {
+  opacity: .6;
+}
+#accord1{
+    margin-top: 60px;
+}
+.accordion {
+  margin-left: 20px;
+  font-family:cursive;
+  text-decoration: underline;
+  color: #6699cc;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  color: #003B6D;
+}
+
+.panel{
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+}
+
+/******************** Contact Form *****************************/
+.contactForm input[type=text], select, password, textarea, input[type=number], .userLoginForm input[type=text] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family:cursive;
+}
+
+.contactForm input[type=submit]{
+  background-color: #003B6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contactForm button, .userLoginForm button {
+align-content: center;
+  font-family:cursive;
+    font-weight: bold;
+  background-color: #003B6D;
+    font-size: 20px;
+  color: white;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+    width: 100%;
+}
+.contactForm button:hover, .userLoginForm button:hover, b.cancelbtn:hover {
+  background-color: #676767;
+}
+
+.contactForm, .userLoginForm {
+  width: 50%;
+  margin: auto;
+  border-radius: 5px;
+  padding: 20px;
+}
+.petInfo{
+    text-align: center;
+    background-color: #6699cc;
+    width: 100%;
+    color: #003B6D;
+    padding: 8px;
+}
+.userSignIn {
+    max-width: 100%;
+}
+.userSignIn img{
+    max-width: 100px;
+}
+b.cancelbtn{
+    float: right;
+    color: #6699cc;
+    width: 50px;
+    text-decoration: underline;
+}
+
+/********** Input fields User Login Form*************/
+
+/*************************************************/
